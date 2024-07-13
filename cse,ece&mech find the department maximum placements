@@ -1,0 +1,9 @@
+cse=int(input())
+ece=int(input())
+mech=int(input())
+if cse>ece:
+    print('highest plcement cse')
+elif ece>mech:
+    print('highest placement ece')
+else:
+    print('highest placement mech')
